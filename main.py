@@ -5,7 +5,8 @@ import cvzone
 from ultralytics import YOLO
 import time
 
-model = YOLO("best9.pt", task="segment")
+#load model
+model = YOLO("best_full_integer_quant_edgetpu.tflite", task="segment")
 
 cap = cv2.VideoCapture(0)
 
