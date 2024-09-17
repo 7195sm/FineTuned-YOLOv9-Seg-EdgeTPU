@@ -27,7 +27,7 @@ while True:
         continue
 
     # Resize frame
-    frame = cv2.resize(frame, (1020, 600))
+    frame = cv2.resize(frame, (640, 640))
     overlay = frame.copy()
 
 
